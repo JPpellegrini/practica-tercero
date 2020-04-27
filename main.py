@@ -10,7 +10,7 @@ def login_form():
     return f"""<html>
     <body>
         <form action="/login" method="POST">
-            <input type="text" name="username" placeholder="Nombre de usuario" required>
+            <input type="text" name="username" placeholder="Usuario" required>
             <input type="password" name="password" placeholder="Contraseña" required>
             <input type="submit" value="Ingresar">
         </form>
