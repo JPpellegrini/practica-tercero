@@ -17,4 +17,9 @@ def login_form():
     </body>
     </html>"""
 
+import nombre
+@app.route('/juan', methods=['GET'])
+def do_juan():
+	return juan.nombre()
+
 app.run()
