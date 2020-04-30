@@ -22,4 +22,9 @@ import pablo
 def do_pablo():
     return pablo.nombre()
 
+import cristian
+@app.route('/cristian', methods=['GET'])
+def do_cristian():
+    return cristian.nombre()
+
 app.run()
