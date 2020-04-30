@@ -22,6 +22,11 @@ import juan
 def do_juan():
 	return juan.nombre()
 
+import pablo
+@app.route('/pablo', methods=['GET'])
+def do_pablo():
+    return pablo.nombre()
+
 import cristian
 @app.route('/cristian', methods=['GET'])
 def do_cristian():
