@@ -17,6 +17,11 @@ def login_form():
     </body>
     </html>"""
 
+import pablo
+@app.route('/pablo', methods=['GET'])
+def do_pablo():
+    return pablo.nombre()
+
 import cristian
 @app.route('/cristian', methods=['GET'])
 def do_cristian():
